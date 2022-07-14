@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #181818;
+}
+/*improve gaming experience*/
+.know{
+		background-image: url(Images/Frame.png), url(Images/Dot%20Ornament.png); 
+		background-repeat:  no-repeat ;
+		background-position: center;
+		background-size: cover, auto;
+	}
+@media (min-width: 768px){
+	
+	.about{
+		position: relative;
+	}
+	.about-inside{
+
+		position: absolute;
+		top: 200%;
+		left: 52%;
+	}
+}
+
+@media  (max-width: 568px){
+	.about{
+		height: 300px;
+	}
+	.about-inside{
+		position: relative;
+	}
+	.about-inside img{
+		position: absolute;
+		top: -300%;
+	}
+	
+}
+@media  (max-width: 440px){
+	.about{
+		height: 300px;
+	}
+	.about-inside{
+		position: relative;
+	}
+	.about-inside img{
+		position: absolute;
+		top: -175%;
+	}
+	
+}
+/*end of improve gaming experience*/
