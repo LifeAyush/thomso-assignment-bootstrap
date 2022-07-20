@@ -6,7 +6,7 @@ body{
 }
 /*improve gaming experience*/
 .know{
-		background-image: url(Images/Frame.png), url(Images/Dot%20Ornament.png); 
+		background-image: url(Images/bg-improve-1.png), url(Images/bg-improve-2.png); 
 		background-repeat:  no-repeat ;
 		background-position: center;
 		background-size: cover, auto;
